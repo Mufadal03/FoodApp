@@ -1,0 +1,39 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+*{
+    font-family: 'Poppins', sans-serif;
+}
+#searchBar{
+     display: flex;
+     margin-top:5px ;
+     justify-content: center;
+}
+#searched{
+    width: 80%;
+    height: 30px;
+    padding: 0px 10px;
+    margin-bottom: 10px;
+    border: 2px solid green;
+}
+#Dish {
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    display: flex;
+    justify-content: space-between;
+   margin-bottom: 10px;
+}
+
+#Dish img {
+    height: 400px;
+}
+
+.right {
+    padding: 10px;
+    height: 420px;
+    overflow: scroll;
+    overflow-x: hidden;
+}
+
+.right>h1,
+h2,
+p {
+    margin: 10px;
+}
