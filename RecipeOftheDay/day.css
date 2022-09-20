@@ -1,0 +1,25 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+* {
+    font-family: 'Poppins', sans-serif;
+}
+
+#Dish {
+    display: flex;
+    margin-top: 20px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+#Dish img {
+    height: 400px;
+}
+
+#Dish>div:nth-child(2) {
+    padding: 10px;
+}
+
+#Dish>div:nth-child(2)>h1,
+h2,
+p {
+    margin: 10px;
+}
