@@ -1,0 +1,27 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+#navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border: 2px solid;
+    height: 6vh;
+    background-color: darkblue;
+}
+#right{
+padding-left: 20px;
+}
+#left{
+    display: flex;
+    justify-content: space-evenly;
+    width: 50%;
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+p{
+    font-size: 17px;
+}
